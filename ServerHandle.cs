@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Numerics;
 
 namespace GameServer
 {
@@ -24,6 +25,20 @@ namespace GameServer
             string _msg = _packet.ReadString();
 
             Console.WriteLine($"Received packet via UDP. Contains message: {_msg}");
+        }
+
+        public static void PlayerMovement(int _fromClient, Packet _packet)
+        {
+            Vector2 _inputs = new Vector2(0, 0);
+            /* for (int i = 0; i < _inputs.Length; i++)
+            {
+                _inputs[i] = _packet.ReadFloat();
+            } */
+            _inputs = _packet.ReadVector2(true);
+            Console.WriteLine($"Inputs: {_inputs}");
+            Quaternion _rotation = _packet.ReadQuaternion();
+            //Console.WriteLine($"_inputs: {_inputs}, _rotation: {_rotation}");
+            Server.clients[_fromClient].player.SetInput(_inputs, _rotation);
         }
     }
 }
