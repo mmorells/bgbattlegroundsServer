@@ -1,0 +1,37 @@
+-20
+-25
+ZZZZZZZZZZZZZZZZZZAAAAAAAAAAAAAAAAZ
+Z                 A              AZ
+Z                 A      AAAAA CCCZ
+Z                 A      A    B   Z
+Z                 A      A    B   B
+Z                 A     CCCCC-B   B
+Z                 A   |      ^-   B
+Z                 A       AA      B
+Z                 A     ||AA      B
+Z                 A     ||   Av   B
+Z                 A      AAAA B   B
+Z                 A      AAAAAB   B
+Z                 A           B   B
+Z                 AAAAA  AAAAAAAAAB
+Z                     A  A        B
+Z                     A  A        Z
+AAAAAAAAAAAAA         A  A        Z
+A C        AA         A  A        Z
+ABA        vA         A  A        Z
+A           A     AAAAA  AAAAAAAAAZ
+A           A     A               Z
+A        |        A              BZ
+A                 A              BZ
+A            AAAAAA              BZ
+A                      AAAAAA    BZ
+A                      A AAAA    BZ
+A            AAAAAA    A    A    BZ
+A           A     A    A    A    BZ
+A^C         |     A    AAAAAA    BZ
+AAAAAAAAAAA -     A              BZ
+Z                 A              BZ
+Z                 A              BZ
+Z                 A             -BZ
+Z                 A CCCCCCCCCCCCC-C
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZCZ
